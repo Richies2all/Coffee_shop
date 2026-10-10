@@ -1,0 +1,227 @@
+<!DOCTYPE html><html lang=en><meta charset=utf-8><meta name=viewport content="width=device-width, initial-scale=1"><link rel=stylesheet href=/coffeeShop.fd4163b5.css><link rel=stylesheet href=/coffeeShop.10ec41da.css><link rel=stylesheet href="https://fonts.googleapis.com/css?family=lobster|Open+Sans"><link rel=stylesheet href=/coffeeShop.71e0eb9f.css><link rel=stylesheet href=/coffeeShop.ae507f01.css><link rel=stylesheet href=/coffeeShop.b0d177d1.css><link rel=stylesheet href=/coffeeShop.20cb50fe.css><title> Coffee Shop</title><body>
+                
+        <header class=hero>
+            <div class=content-container>
+                <a href=/index.html><img src=/logo.60dfd863.png alt="Coffee logo"></a>
+                <div class=hero-text>
+                    <h1>Nucamp Coffee</h1>
+                    <h2>Be energized...</h2>
+                </div>
+                    
+                <div class="ms-auto mt-4">
+                    <a role=button class="btn btn-info btn-lg text-nowrap text-white" data-bs-toggle=modal data-bs-target=#basketModal>
+                        Order
+                    </a>
+
+                </div>
+            </div>
+
+            
+            <nav class="nav nav-pills sticky-top">
+                    <ul class="justify-content-center nav nav-pills w-100">
+                        <li class="active nav-item">
+                            <a class=nav-link href=/index.html><i class="fa fa-home fa-lg"></i> Home</a></li>
+                        <li class=nav-item>
+                            <a class=nav-link href=#><i class="fa fa-info fa-lg"></i> Menu</a></li>
+                        <li class=nav-item>
+                            <a class=nav-link href=#><i class="fa fa-lg fa-list"></i> Reservations</a></li>
+                        <li class=nav-item>
+                            <a class=nav-link href=#><i class="fa fa-address-card fa-lg"></i> About Us</a></li>
+                        <li class=nav-item>
+                            <a class=nav-link href=#><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
+                    </ul>
+                
+            </nav>
+        </header>
+
+        
+        <div class="fade modal" id=basketModal>
+            <div class=modal-dialog>
+                <div class=modal-content>
+                    <div class=modal-header>
+                        <h3 class=modal-title>Select a coffee</h3>
+                        <button type=button class=btn-close data-bs-dismiss=modal aria-label=Close></button> 
+                    </div>
+                    <div class=modal-body>
+                        <div class=container-fluid>
+                            <div class=row>
+                                <div class="col-12 mb-3">
+                                    <label class=visually-hidden for=numCoffee>
+                                        Coffee brands
+                                    </label>
+                                    <select class="form-select form-select-sm" id=numCoffee name=numCoffee>
+                                        <option value disabled selected>Brands...</option>
+                                        <option value=Espresso>Espresso</option>
+                                        <option value=Ristretto>Ristretto</option>
+                                        <option value=Americano>Americano</option>
+                                        <option value="Piccolo Latte">Piccolo Latte</option>
+                                        <option value=Mocha>Mocha</option>
+                                        <option value="Iced Coffee">Iced Coffee</option>
+                                    </select>
+                                </div>
+                                <div class=col-12>
+                                    <div class="mb-3 row">
+                                        <label for=number class="col-12 col-form-label col-sm-6">
+                                            Number of order
+                                        </label>
+                                        <div class="col-12 col-sm-6">
+                                            <input type=number class=form-control id=number name=number min=1 placeholder=Number>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-12>
+                                    <button type=button class="btn btn-primary" data-bs-dismiss=modal>Order Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <main>
+            
+            <section class="align-items-center col-md-12 mx-auto row row-content">
+                <div id=homeCarousel class="carousel slide" data-bs-ride=carousel>
+
+                    
+                    <div class=carousel-indicators>
+                        <button type=button data-bs-target=#homeCarousel data-bs-slide-to=0 class=active aria-current=true aria-label="Slide 1"></button>
+                        <button type=button data-bs-target=#homeCarousel data-bs-slide-to=1 aria-label="Slide 2"></button>
+                        <button type=button data-bs-target=#homeCarousel data-bs-slide-to=2 aria-label="Slide 3"></button>
+                    </div>
+
+                    
+                    <div class=carousel-inner>
+                        <div class="active carousel-item">
+                            <img class="d-block w-100" src=/coffee_carou_1.a88de106.png alt="image 1">
+                            <div class=carousel-caption>
+                                <h3>A cup of coffee</h3>
+                                <p>Take your time, recharge with a cup of coffee</p>
+                            </div>
+                        </div>
+                        <div class=carousel-item>
+                            <img class="d-block w-100" src=/coffee_carou_2.f7c36460.png alt="image 2">
+                            <div class=carousel-caption>
+                                <h3>An Iced coffee</h3>
+                                <p>Enjoy your coffee time</p>
+                            </div>
+                        </div>
+                        <div class=carousel-item>
+                            <img class="d-block w-100" src=/coffee_carou_3.9a26d898.png alt="image 3">
+                            <div class=carousel-caption>
+                                <h3>Hot coffee</h3>
+                                <p>Chill out with a cup of hot coffee</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                        <a class=carousel-control-prev href=#homeCarousel role=button data-bs-slide=prev>
+                            <span class=carousel-control-prev-icon></span>
+                            <span class=visually-hidden>Previous</span>
+                        </a>
+
+                        
+
+                        <a class=carousel-control-next href=#homeCarousel role=button data-bs-slide=next>
+                            <span class=carousel-control-next-icon></span>
+                            <span class=visually-hidden>Next</span>
+                        </a>
+
+                </div>
+
+            </section>
+
+             
+        <div class="row row-content">
+            <div class="auto col-sm-6 mx">
+                <div class=card>
+                    <h3 class="bg-info card-header text-white">Coffee Price List</h3>
+                    <div class=card-body>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Coffee Brand</th>
+                                    <th>Price</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Espresso</td>
+                                    <td>€4.99</td>
+                                </tr>
+                                <tr>
+                                    <td>Ristretto</td>
+                                    <td>€5.79</td>
+                                </tr>
+                                <tr>
+                                    <td>Americano</td>
+                                    <td>€3.89</td>
+                                </tr>
+                                <tr>
+                                    <td>Piccolo Latte</td>
+                                    <td>€2.99</td>
+                                </tr>
+                                <tr>
+                                    <td>Mocha</td>
+                                    <td>€4.49</td>
+                                </tr>
+                                <tr>
+                                    <td>Iced Coffee</td>
+                                    <td>€5.49</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            
+        <div class=content-container>
+            <div class="content-row row">
+                <div class="align-items-start mb-3 review-section row">
+                    <div class="col-md-3 col-sm-4 order-sm-first">
+                        <h2 class=text-sm-end>Fresh and Tasty Coffee</h2>
+                    </div>
+                    <div class="col ms-lg-5">
+                        <img class="img-fluid img-thumbnail" src=/coffee_1.74744e21.png alt="coffee description">
+                    </div>
+                    <div class=col>
+                        <h3>About the coffee</h3>
+                        <p> Mazagran arabica beans est, extraction, crema lungo percolator sweet filter to go. Saucer, cultivar a qui variety crema, that doppio qui frappuccino caramelization lungo.</p>
+                        <p>Iced bar  seasonal, single shot foam, cinnamon flavour that brewed aroma french press. At robust iced id mazagran sugar plunger pot redeye.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </main>
+        
+
+    
+    
+    <footer class=site-footer>
+        <div class=content-container>
+            <div class=footer-grid>
+                <div class=footer-message>
+                    <h5>WELCOME AND ENJOY YOUR COFFEE</h5>
+                </div>
+                <div class=footer-social>
+                    <h5>Social</h5>
+                    <a class="btn btn-instagram btn-social-icon" href=http://instagram.com/><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-facebook btn-social-icon" href=http://facebook.com/><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href=http://twitter.com/><i class="fa fa-twitter"></i></a>
+                </div>
+                <div class=footer-contact>
+                    <h5>Mobile and Email</h5>
+                    <a role=button class="btn btn-link" href="Tel: 358-50-467-321"><i class="fa fa-phone"></i> 358-50-467-321</a> <br>
+                    <a role=button class="btn btn-link" href=mailto:email@nucamp.co><i class="fa fa-envelope-o"></i> email@nucamp.co</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src=/coffeeShop.11bdce2a.js></script>
+    
+        

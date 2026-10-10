@@ -1,0 +1,74 @@
+$color-first: #fbf2c0;
+$color-primary: #13010d;
+$color-secondary: #48392a;
+$color-pale: #c06e52;
+$color-mid: #f8f1f0;
+$color-dark: #43281c;
+$color-black-transparent: #cccbc680;
+$color-teal: #af95b3;
+
+$body-font: "Open Sans", sans-serif;
+$header-font: "lobster", cursive;
+
+body {
+    font-family: $body-font;
+    background-color: $color-first;
+}
+
+h1, h2, h3 {
+    font-family: $header-font;
+}
+
+h2 {
+    color: $color-primary;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navpills-text {
+    margin-right: auto;
+}
+
+table {
+    width: 50%;
+    border: 1;
+}
+thead {
+    text-align: left;
+}
+
+.carousel {
+    border: solid $color-secondary;
+    border-radius: 8px;
+
+}
+
+.carousel-caption {
+    background-color: $color-black-transparent;
+}
+
+.carousel-item img {
+    width: 50%;
+    height: 300px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+/*footer styles*/
+.footer-social {
+    text-align: center;
+}
+
+.footer-contact {
+    text-align: center;
+}
+
+@import 'modal';

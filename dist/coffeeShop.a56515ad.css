@@ -1,0 +1,74 @@
+body {
+  background-color: #fbf2c0;
+  font-family: Open Sans, sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: lobster, cursive;
+}
+
+h2 {
+  color: #13010d;
+}
+
+.row-content {
+  border-bottom: 1px ridge;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 200px;
+  padding: 50px 0;
+  display: flex;
+}
+
+.navpills-text {
+  margin-right: auto;
+}
+
+table {
+  border: 1px;
+  width: 50%;
+}
+
+thead {
+  text-align: left;
+}
+
+.carousel {
+  border: solid #48392a;
+  border-radius: 8px;
+}
+
+.carousel-caption {
+  background-color: #cccbc680;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  width: 50%;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.footer-social, .footer-contact {
+  text-align: center;
+}
+
+#basketModal .modal-header {
+  color: #fff;
+  background-color: #af95b3;
+}
+
+.hero {
+  color: #fff;
+  background-image: linear-gradient(to right, #f8f1f0, #13010d, #43281c);
+  margin-bottom: 0;
+  padding: 30px 0;
+}
+
+.hero .content-container {
+  align-items: center;
+  gap: 50px;
+  display: flex;
+}
+/*# sourceMappingURL=coffeeShop.a56515ad.css.map */

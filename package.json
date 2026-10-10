@@ -1,0 +1,23 @@
+{
+  "name": "coffeeshop",
+  "version": "1.0.0",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel --open",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "Richard",
+  "license": "ISC",
+  "description": "A fictional campsites review website.",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.4",
+    "parcel": "^2.16.4"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}
