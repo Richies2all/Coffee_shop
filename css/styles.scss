@@ -4,8 +4,8 @@ $color-secondary: #48392a;
 $color-pale: #c06e52;
 $color-mid: #f8f1f0;
 $color-dark: #43281c;
-$color-black-transparent: #cccbc680;
-$color-teal: #af95b3;
+$color-black-transparent: #41425380;
+$color-teal: #0dcaf0;
 
 $body-font: "Open Sans", sans-serif;
 $header-font: "lobster", cursive;
@@ -33,16 +33,9 @@ h2 {
     align-items: center;
 }
 
-.navpills-text {
-    margin-right: auto;
-}
-
-table {
-    width: 50%;
-    border: 1;
-}
 thead {
-    text-align: left;
+    text-align: center;
+    background-color: #a8a48a;
 }
 
 .carousel {
